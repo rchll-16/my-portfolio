@@ -1,4 +1,5 @@
 import React from "react";
+import myImg from '../assets/pfp.jpg';
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -14,7 +15,7 @@ const About = () => {
         viewport={{ once: true }}
       >
         <img
-          src="/src/assets/pfp.jpg"
+          src={myImg}
           alt="Rachelle Pantinople"
           className="w-94 h-94 object-cover border-7 border-stone-900 rounded-full shadow-lg"
         />
