@@ -11,7 +11,7 @@ const LandingPage = () => {
   return (
     <>
       {/* HERO SECTION */}
-      <section className="min-h-screen flex flex-col md:flex-row items-center justify-between -mt-10 bg-orange-50 px-10 md:px-16 py-12 gap-10 md:gap-0">
+      <section className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between -mt-10 bg-orange-50 px-10 md:px-16 py-12 gap-10 md:gap-0">
         
         {/* LEFT: Text Section */}
         <motion.div 
